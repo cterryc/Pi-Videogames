@@ -15,10 +15,8 @@ export default function Videogames() {
 
     useEffect(() => {
         dispatch(actionVideogamesFromApi())
-        console.log("cuantos get hace Linea 18")
     }, [])
     useEffect(() => {
-        console.log("cuantos get hace Linea 21")
         setLocalVideogamesFromApi(videogamesFromApi)
     }, [videogamesFromApi])
 

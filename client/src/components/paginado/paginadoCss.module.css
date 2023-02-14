@@ -45,6 +45,15 @@
     /* transition: transform 0.5s;*/
 }
 
+.h1Filtrado {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    border: 5px solid #ffffff;
+    margin: 10% 25%;
+    border-radius: 20px;
+}
 
 .mouseOver :hover {
     transform: translateY(-10px);

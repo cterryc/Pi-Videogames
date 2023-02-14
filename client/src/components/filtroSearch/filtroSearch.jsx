@@ -45,8 +45,6 @@ export default function FiltroSearch({ juegosParaFiltrar, filtrarJuegos, buscarJ
 
 
     function onChange(e) {
-        console.log(e.target.value)
-        console.log(e.target.name)
         setSelectState({
             ...selectState,
             [e.target.name]: e.target.value
@@ -55,9 +53,7 @@ export default function FiltroSearch({ juegosParaFiltrar, filtrarJuegos, buscarJ
 
     function onSubmit(e) {
         e.preventDefault()
-        console.log("esto le llega a filter desde Videogames", juegosParaFiltrar)
 
-        // console.log("Esto es Location => ", location.pathname)
         let gamesAreFiltered = []
         if (selectState.Genres && selectState.Genres !== "Select...") {
             let filterByGenres = juegosParaFiltrar.filter(ele => {
@@ -74,12 +70,9 @@ export default function FiltroSearch({ juegosParaFiltrar, filtrarJuegos, buscarJ
                 let vacioTermporal = []
                 gamesAreFiltered = "Genres"
                 // if (location.pathname === "/videogames") {
-                console.log(vacioTermporal)
                 setTimeout(() => {
-                    console.log(gamesAreFiltered)
                     filtrarJuegos(gamesAreFiltered)
                 }, 1000);
-                console.log("esto es filterByDbApi ==>", filterByGenres)
                 return filtrarJuegos(vacioTermporal)
             }
             gamesAreFiltered = filterByGenres;
@@ -147,10 +140,7 @@ export default function FiltroSearch({ juegosParaFiltrar, filtrarJuegos, buscarJ
         let vacioTermporal = []
         // if (location.pathname === "/videogames") {
         filtrarJuegos(vacioTermporal)
-        console.log(vacioTermporal)
         setTimeout(() => {
-            console.log("esto es lo q esta apunto de ser enviado desde Filter => ", gamesAreFiltered)
-            console.log(gamesAreFiltered)
             filtrarJuegos(gamesAreFiltered)
         }, 1000);
         // }

@@ -13,7 +13,7 @@ const Paginado = ({ games }) => {
     let index3 = 1000;
     if (typeof games === "string") {
         return (
-            <div>No existen coincidencias para filtrar</div>
+            <h1 className={PaginadoCss.h1Filtrado} >No existen coincidencias para filtrar</h1>
         )
     }
 

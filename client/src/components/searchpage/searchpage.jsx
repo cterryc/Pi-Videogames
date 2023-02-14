@@ -21,6 +21,7 @@ export default function SearchPage() {
     // useEffect(() => {
     //     setLocalVideogamesFromApi(videogamesFromApi)
     // }, [videogamesFromApi])
+    // if (noSeEncontraronJuegos === true) setNoSeEncontraronJuegos(false)
     useEffect(() => {
         setLocalGamesSearchFromApi(gamesSearchFromApi)
         setNoSeEncontraronJuegos(false)
@@ -29,6 +30,7 @@ export default function SearchPage() {
     }, [gamesSearchFromApi])
 
     function filtrarJuegos(juegosFiltrados) {
+        setNoSeEncontraronJuegos(false)
         if (gamesSearchFromApi.length > 0) setLocalGamesSearchFromApi(juegosFiltrados)
         else setLocalVideogamesFromApi(juegosFiltrados)
     }
@@ -85,7 +87,7 @@ export default function SearchPage() {
             <div>
                 <FiltroSearch juegosParaFiltrar={estadoQueVaAFiltrar} filtrarJuegos={filtrarJuegos} buscarJuegos={buscarJuegos} />
                 <div className={searchPageCss.fondoNegro}>
-                    <h1>Games Not Found</h1>
+                    <h1 className={searchPageCss.h1GamesNotFound}>Games Not Found</h1>
                 </div>
             </div>
         )

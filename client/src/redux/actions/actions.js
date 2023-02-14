@@ -18,15 +18,12 @@ export function actionVideogamesFromApi(videogamesFromAPi) {
 }
 
 export const actionGamesSearch = (name) => {
-    console.log("esto es NAME en actio", name)
     if (typeof name !== "string") {
-        console.log("entro al arrah Vacio")
         return {
             type: JUEGOS_SEARCH,
             payload: []
         }
     }
-    console.log("no entro al array vacio")
     return function (dispatch) {
         return fetch(`http://localhost:3001/videogames?name=${name}`)
             .then(infoApi => infoApi.json())

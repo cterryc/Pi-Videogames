@@ -9,6 +9,7 @@
     /* align-items: center; */
 }
 
+
 .buttonContainer {
     /* display: flex;
     flex-wrap: wrap;
@@ -36,6 +37,7 @@
     /* width: 0%; */
     margin: 0%;
 }
+
 .buttonsCentrales button {
     border-radius: 5px;
     padding: 1% 2.5%;
@@ -59,8 +61,20 @@
 }
 
 .fondoNegro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-size: cover;
-    height: 100vh;
+    height: 82vh;
     background-color: #15191f;
-    color: aliceblue;
+}
+
+.h1GamesNotFound {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    border: 5px solid #ffffff;
+    width: 400px;
+    border-radius: 20px;
 }
