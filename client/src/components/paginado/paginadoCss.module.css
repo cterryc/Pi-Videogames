@@ -22,9 +22,10 @@
 .capaDeFondo {
     background: rgba(175, 142, 33, 0.5);
     border: 5px solid #333;
-    width: 88%;
+    width: 310px;
     border-radius: 5%;
     height: 286px;
+    box-shadow: 0px 15px 25px rgb(0 0 0 / 80%);
 }
 
 .card {

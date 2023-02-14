@@ -27,7 +27,7 @@
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr;
     padding-left: 8%;
-    box-shadow: 0px 15px 25px rgba(0,0,0,0.50);
+    box-shadow: 0px 15px 25px rgba(0,0,0,0.80);
     border-radius: 25px;
     margin-top: 0%;
 }
@@ -62,8 +62,9 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr;
-    box-shadow: 0px 15px 25px rgba(0,0,0,0.50);
+    box-shadow: 0px 15px 25px rgba(0,0,0,0.80);
     border-radius: 25px;
+    margin-bottom: 25px;
 }
 
 .inputs {
@@ -71,7 +72,8 @@
     /* justify-content: center; */
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
-    padding: 0% 0%;
+    /* padding: 0% 0%; */
+    margin: 10px;
 }
 
 .labels {
