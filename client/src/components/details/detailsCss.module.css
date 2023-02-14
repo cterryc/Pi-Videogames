@@ -1,0 +1,92 @@
+.garden {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 1fr;
+    /* justify-content: space-around;
+    display: flex; */
+    padding: 5%;
+    color: aliceblue;
+    height: 100%;
+}
+
+.description {
+    /* visibility: 1;
+    transition: visibility 1000ms ease-in, transform 1000ms ease-in; */
+    cursor: pointer;
+    box-shadow: 0px 15px 25px rgba(0,0,0,0.50);
+    transition: all 500ms ease-out;
+    background: rgba(6, 31, 36, 0.8);
+    padding-right: 5%;
+    margin-right: 5%;
+    /* transform: translateY(-50px); */
+
+/* .description:hover {
+    transform: translateY(0%);
+    transition: transform 1000ms ease-in
+    */
+}
+
+.button button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border-radius: 5px;
+    padding: 1% 2.5%;
+    box-shadow: 0px 15px 25px rgba(0, 0, 0, 0.50);
+    background: rgba(6, 31, 36, 0.5);
+    color: antiquewhite;
+}
+
+.button button:hover {
+    color: #333;
+    background: rgba(197, 200, 201, 0.5);
+}
+
+.img {
+    display: flex;
+    width: 648px;
+    height: 402px;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+    background-size: contain;
+    border: 5px solid #333;
+    box-shadow: 0px 15px 25px rgba(0,0,0,0.50);
+    
+    
+}
+
+.divtext {
+    padding-left: 10%;
+    border: 5px solid #333;
+    box-shadow: 0px 15px 25px rgba(0,0,0,0.50);
+    background: rgba(6, 31, 36, 0.5);
+
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    padding-top: 3%;
+}
+
+.divglobal {
+    border-radius: 25px;
+}
+
+.divimg {
+    display: grid;
+    grid-column-start: 2
+}
+
+.genreplatform {
+    display: grid;
+    grid-template-columns: 1fr 1fr
+}
+
+.dividedos {
+    margin-right: 60px;
+    display: grid;
+    grid-template-columns: 1fr 1fr
+}

@@ -1,0 +1,77 @@
+/* .navbar {
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: aqua;
+    box-shadow: 0px 15px 25px rgba(0, 0, 0, 0.50);
+    transition: all 500ms ease-out;
+    background: rgba(6, 31, 36, 0.5);
+    color: aliceblue;
+}
+
+.navbar button {
+    font-family: 'Press Start 2P';
+    padding: 10px;
+    margin: 20px;
+    border-radius: 30px;
+    background-color: turquoise;
+    cursor: pointer;
+}
+
+.navbar button:hover {
+    background-color: black;
+    color: turquoise
+} */
+
+.active {
+    background-color: rgba(172, 172, 172, 0.5);
+    /* padding: 0px 0px;
+    margin: 0px 0px; */
+    border-radius: 10px;
+}
+
+.todosLosBotones {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: 1fr;
+    /* background-color: aqua; */
+    box-shadow: 0px 15px 25px rgba(0, 0, 0, 0.50);
+    transition: all 500ms ease-out;
+    background: rgba(6, 31, 36, 0.5);
+    color: aliceblue;
+    padding: 1%;
+    
+}
+
+.botonesDelMedio {
+    display: flex;
+    /* grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr; */
+justify-content: center;
+
+
+    font-family: 'Press Start 2P';
+
+    /* flex-direction: column; */
+
+    /* box-shadow: 0px 15px 25px rgba(0, 0, 0, 0.50);
+    transition: all 500ms ease-out;
+    background: rgba(6, 31, 36, 0.5);
+    color: aliceblue; */
+}
+
+/* .botonesDelMedio button {} */
+
+.botonesIndividuales {
+    color: antiquewhite;
+    padding: 10px 20px;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 15px 25px rgba(0, 0, 0, 0.50);
+    background-color: rgb(182, 53, 53);
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

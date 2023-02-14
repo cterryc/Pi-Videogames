@@ -1,0 +1,70 @@
+.todosImputsYButtons {
+
+    display: grid;
+    grid-template-columns: 3fr 3fr;
+    grid-template-rows: 1fr;
+
+
+    /* display: flex; */
+    /* justify-content: space-around; */
+    /* padding-bottom: 7px; */
+
+}
+
+.barraSearch {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    margin: 0% 30%;
+    /* border-radius: 50px; */
+    box-shadow: 0px 15px 25px rgba(0, 0, 0, 0.50);
+    background: rgba(6, 31, 36, 0.5);
+    border-radius: 10px;
+    padding: 1%;
+}
+
+.selector {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+}
+
+.paraEsquinas {
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.5);
+    /* border: 5px solid #333; */
+    color: aliceblue;
+}
+
+.inputSearch {
+    border-radius: 10px;
+}
+
+.todosSelectores {
+    display: flex;
+    justify-content: center;
+    padding: 3px 0px;
+    margin: 0% 23%;
+    /* background-color: bisque; */
+    border-radius: 10px;
+    box-shadow: 0px 15px 25px rgba(0, 0, 0, 0.50);
+    background: rgba(6, 31, 36, 0.5);
+    color: antiquewhite;
+    padding: 5px 0px;
+    margin: 0px 160px;
+    cursor: pointer;
+}
+
+.buttonFilter {
+    border-radius: 10px;
+    /* margin: 4px; */
+    padding: 5px 10px;
+    background: rgba(255, 255, 255, 0.5);
+    color: rgb(70, 73, 73);
+    cursor: pointer;
+}
+
+.submit {
+    padding: 0px 15px;
+    margin: 5px 0px;
+}

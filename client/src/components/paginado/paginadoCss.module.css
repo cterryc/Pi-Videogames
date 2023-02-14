@@ -1,0 +1,71 @@
+.img {
+    width: 300px;
+    height: 180px;
+    box-shadow: 0px 15px 25px rgb(0 0 0 / 50%);
+    border-radius: 10px;
+    border: 2px solid rgba(175, 142, 33, 0.5);
+    margin-top: 1%;
+}
+
+.divCard {
+    position: relative;
+    /* border: solid #333; */
+    /* margin-right: 10%; */
+    /* margin-left: 5%; */
+    /* margin-bottom: 5%; */
+    height: 320px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.capaDeFondo {
+    background: rgba(175, 142, 33, 0.5);
+    border: 5px solid #333;
+    width: 88%;
+    border-radius: 5%;
+    height: 286px;
+}
+
+.card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    height: 260px;
+    /* margin-right: 10%; */
+    /* margin-left: 5%; */
+    
+    /* height: 400px; */
+    cursor: pointer;
+    box-shadow: 0px 15px 25px rgb(0 0 0 / 50%);
+    /* transition: all 500ms ease-out; */
+    color: aliceblue;
+    
+    /* transition: transform 0.5s;*/
+}
+
+
+.mouseOver :hover {
+    transform: translateY(-10px);
+}
+
+
+.garden {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+}
+
+
+.buttonPrevius {
+    display: grid;
+}
+
+.nombreDeCard {
+    color: aliceblue;
+    margin: 0 auto;
+    text-align: center;
+    cursor: pointer;
+    box-shadow: 0px 15px 25px rgba(0, 0, 0, 0.50);
+}
