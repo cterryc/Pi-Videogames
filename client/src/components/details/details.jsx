@@ -12,11 +12,13 @@ export default function GameDetails() {
     // console.log(details)
     // console.log(gameDetails)
 
-    if (Object.keys(gameDetails).length === 0) dispatch(actionGameDetails(details))
-
     useEffect(() => {
+        dispatch(actionGameDetails(details))
+    }, [])
 
-    }, [gameDetails])
+    // useEffect(() => {
+
+    // }, [gameDetails])
 
     const handleMouseEnter = () => {
         console.log(descriptionState)
